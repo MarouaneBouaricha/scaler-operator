@@ -48,14 +48,10 @@ spec:
                   type: object
                 type: array
               end:
-                maximum: 23
-                minimum: 0
                 type: integer
               replicas:
                 type: integer
               start:
-                maximum: 23
-                minimum: 0
                 type: integer
             required:
             - deployments
@@ -64,12 +60,8 @@ spec:
             - start
             type: object
           status:
-            description: ScalerStatus defines the observed state of Scaler
             properties:
               status:
-                description: 'INSERT ADDITIONAL STATUS FIELD - define observed state
-                  of cluster Important: Run "make" to regenerate code after modifying
-                  this file'
                 type: string
             type: object
         type: object
